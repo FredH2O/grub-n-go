@@ -61,3 +61,5 @@ function Stats() {
     </section>
   );
 }
+
+export default Stats;
