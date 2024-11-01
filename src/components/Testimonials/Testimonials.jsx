@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Swiper, { Pagination, Autoplay } from "swiper";
 import "swiper/swiper-bundle.css";
+Swiper.use([Pagination, Autoplay]);
 
 function Testimonials() {
   useEffect(() => {
