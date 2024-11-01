@@ -162,3 +162,4 @@ function Gallery() {
     </section>
   );
 }
+export default Gallery;

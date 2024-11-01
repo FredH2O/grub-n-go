@@ -1,8 +1,9 @@
 import { useEffect } from "react";
-import Swiper, { Pagination, Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Pagination, Autoplay } from "swiper";
 Swiper.use([Pagination, Autoplay]);
 
-function EventsSection() {
+export default function EventsSection() {
   useEffect(() => {
     const swiper = new Swiper(".init-swiper", {
       loop: true,

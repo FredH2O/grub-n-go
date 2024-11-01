@@ -64,7 +64,7 @@ function Footer() {
           <span>All Rights Reserved</span>
         </p>
         <div class="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href=""></a>
         </div>
       </div>
     </footer>
